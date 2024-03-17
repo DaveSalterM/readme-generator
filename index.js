@@ -2,6 +2,7 @@ const inquirer = require('inquirer');
 const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require('fs');
 
+//prompt of questions and returns the mardown file
 inquirer
     .prompt([
         {
@@ -65,4 +66,3 @@ inquirer
             message: 'Provide your E-Mail address for addition user questions'
         },
     ])
-
