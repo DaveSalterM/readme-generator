@@ -2,7 +2,6 @@ const inquirer = require('inquirer');
 const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require('fs');
 
-//prompt of questions and returns the mardown file
 inquirer
     .prompt([
         {
@@ -39,7 +38,7 @@ inquirer
             type: 'list',
             name: 'license',
             message: 'List the license used for this project',
-            choices: ['Apache', 'GNU GPL v2.0', 'GNU GPL v3.0', 'MIT', 'BSD 2-Clause', 'BSD 3-Clause', 'Boost Software', 'Creative Commons Zero', 'Eclipse', 'Mozilla', 'Unlicense',]
+            choices: ['Apache License', 'GNU GPL v2.0 License', 'GNU GPL v3.0 License', 'MIT License', 'BSD 2-Clause License', 'BSD 3-Clause License', 'Boost Software License', 'Creative Commons Zero License', 'Eclipse License', 'Mozilla License', 'Unlicense']
         },
 
         {
@@ -66,3 +65,9 @@ inquirer
             message: 'Provide your E-Mail address for addition user questions'
         },
     ])
+
+    .then((data) => {
+        fs.writeFile('sample.md', generateMarkdown(data), (err) =>   
+        err ? console.error(err) : console.log('README successfully created')
+        );
+    });
