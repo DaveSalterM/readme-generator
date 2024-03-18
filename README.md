@@ -44,4 +44,4 @@
 
   ## Questions
   
-  For any further questions, please contact davesalter1988@gmail.com, and visit https://github.com/DaveSalterM for addition projects
+  For any further questions, please contact davesalter1988@gmail.com, and visit https://github.com/DaveSalterM for additional projects
