@@ -1,5 +1,4 @@
-
-
+// Function for license link and corresponding badge
 function renderLicenseBadge(license) {
   if (license === 'Apache License'){
     return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
@@ -36,9 +35,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-
-
-
+// Function for generating README markdown file with user input 
 function generateMarkdown(data) {
   return `
   
@@ -72,7 +69,7 @@ function generateMarkdown(data) {
   ## License
 
   ${data.license} 
-  
+
   Click on the corresponding badge at the top of the page for more information
 
   ## Features

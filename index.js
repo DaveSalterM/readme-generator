@@ -2,6 +2,7 @@ const inquirer = require('inquirer');
 const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require('fs');
 
+// Multiple prompts for user input
 inquirer
     .prompt([
         {
@@ -66,6 +67,7 @@ inquirer
         },
     ])
 
+    //Generates sample README markdown file
     .then((data) => {
         fs.writeFile('sample.md', generateMarkdown(data), (err) =>   
         err ? console.error(err) : console.log('README successfully created')

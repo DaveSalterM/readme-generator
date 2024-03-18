@@ -1,12 +1,12 @@
 
   
-  # title
+  # README Generator
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
   ## Description
 
-  
+  This project is a tool for creating a README markdown file prompted by user input. It showcases understanding of using node and the inquirer module
 
   ## Table of Contents
 
@@ -17,11 +17,11 @@
 
   ## Installation
 
-  
+  After cloning the repository, navigate to the repository in your console, open the terminal, type "node index.js", hit 'ENTER', and fill out the message prompts
 
   ## Usage
 
-  
+  After using the method described above to start the application, follow the prompts to easily generate a README file for any project you wish. It saves as a sample markdown file as to not automatically overwrite a README that may already exist to allow for review
 
   ## Credits 
 
@@ -29,7 +29,9 @@
 
   ## License
 
-  MIT License. Click on the corresponding badge at the top of the page for more information
+  Unlicense 
+
+  Click on the corresponding badge at the top of the page for more information
 
   ## Features
 
@@ -41,4 +43,4 @@
 
   ## Questions
   
-  For any further questions, please contact , and visit  for addition projects
+  For any further questions, please contact davesalter1988@gmail.com, and visit https://github.com/DaveSalterM for addition projects
