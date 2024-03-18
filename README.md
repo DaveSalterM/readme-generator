@@ -19,8 +19,11 @@
   After cloning the repository, navigate to the repository in your console, open the terminal, type "node index.js", hit 'ENTER', and fill out the message prompts
 
   ## Usage
-
+  
   After using the method described above to start the application, follow the prompts to easily generate a README file for any project you wish. It saves as a sample markdown file as to not automatically overwrite a README that may already exist to allow for review
+
+  - [Walkthrough video of application in action](https://drive.google.com/file/d/15SK3xd5fCfD331o6CrFrpGRZTTpE1Imk/view?usp=sharing)
+  - Note: you may have to change quality to higher setting for better viewing experience
 
   ![](./assets/screenshot.png)
   
