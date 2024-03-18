@@ -25,21 +25,23 @@
 
   ## Credits 
 
-  
+  N/A
 
   ## License
 
   Unlicense 
 
-  Click on the corresponding badge at the top of the page for more information
+  Click the badge for further information
+
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
   ## Features
 
-  
+  N/A
 
   ## Tests
 
-  
+  N/A
 
   ## Questions
   

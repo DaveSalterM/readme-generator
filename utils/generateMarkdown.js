@@ -70,7 +70,9 @@ function generateMarkdown(data) {
 
   ${data.license} 
 
-  Click on the corresponding badge at the top of the page for more information
+  Click the badge for further information
+
+  ${renderLicenseBadge(data.license)}
 
   ## Features
 
@@ -82,7 +84,7 @@ function generateMarkdown(data) {
 
   ## Questions
   
-  For any further questions, please contact ${data.email}, and visit ${data.github} for addition projects
+  For any further questions, please contact ${data.email}, and visit https://github.com/${data.github} for addition projects
 `;
 }
 
